@@ -17,12 +17,12 @@ const Header = () => {
                 <nav>
                     <FontAwesomeIcon onClick={ toggleMenu } icon={ faBars } className={ classes['toggle-menu'] } />
                     { menuState && <ul>
-                        <li><a onClick={ toggleMenu } href="#" className={ classes.active }>Home</a></li>
-                        <li><a onClick={ toggleMenu } href="#">Services</a></li>
-                        <li><a onClick={ toggleMenu } href="#">Portfolio</a></li>
-                        <li><a onClick={ toggleMenu } href="#">About</a></li>
-                        <li><a onClick={ toggleMenu } href="#">Pricing</a></li>
-                        <li><a onClick={ toggleMenu } href="#">Contact</a></li>
+                        <li><a href="#" className={ classes.active }>Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul> }
                     <div className={ classes.form }>
                         <FontAwesomeIcon icon={ faSearch } className={ classes['search-icon'] } />
