@@ -166,9 +166,10 @@ ul {
   line-height: 2;
   padding: 1.5rem 0;
 }
-.design .text ul li::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f108";
+.design .text ul li .icon {
   font-size: 1.6rem;
   font-weight: 900;
+  margin-right: 1rem;
+  position: relative;
+  top: 0.1rem;
 }
