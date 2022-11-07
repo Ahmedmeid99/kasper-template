@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 import classes from "./Header.module.css"
 const Header = () => {
-    const [menuState, setMenuState] = useState(false)
+    const [menuState, setMenuState] = useState(true)
     const toggleMenu = () => {
         setMenuState(!menuState)
     }

@@ -12,7 +12,7 @@ imgList.append(img2)
 imgList.append(img3)
 console.log(imgList.length())
 const Landing = () => {
-    const [imgState, setImgState] = useState()
+    const [imgState, setImgState] = useState(img1)
 
     const nextBackground = () => {
         imgList.next()
