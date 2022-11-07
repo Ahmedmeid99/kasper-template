@@ -1,18 +1,28 @@
-import { Routes, Route } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import ProjectsPage from './pages/ProjectsPage'
-import ContactusPage from './pages/ContactusPage'
 import "./App.css";
+import Header from "./components/header/Header";
+import Landing from "./components/landing/Landing";
+import Services from "./components/services/Services";
+import appImg from "./assets/images/app-screen-3.png";
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={ <HomePage /> } />
-        <Route path='/about' element={ <AboutPage /> } />
-        <Route path='/projects' element={ <ProjectsPage /> } />
-        <Route path='/contactus' element={ <ContactusPage /> } />
-      </Routes>
+      <Header />
+      <Landing />
+      <Services />
+      <div className="design">
+        <div className="image">
+          <img src={ appImg } alt="Mobile" />
+        </div>
+        <div className="text">
+          <h2>Our Design Comes With...</h2>
+          <ul>
+            <li>Responsive Design</li>
+            <li>Modern And Clean Design</li>
+            <li>Clear Code</li>
+            <li>Browser Frindly</li>
+          </ul>
+        </div>
+      </div>
     </>
 
   );
