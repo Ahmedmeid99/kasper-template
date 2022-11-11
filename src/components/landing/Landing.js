@@ -1,9 +1,9 @@
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import List from './imgsList'
-import img1 from "../../assets/images/landing1.jpeg"
-import img2 from "../../assets/images/landing2.jpeg"
-import img3 from "../../assets/images/MzI0NDQ4Ng.jpg"
+import img1 from "../../assets/images/landing.jpg"
+import img2 from "../../assets/images/design-features.jpg"
+import img3 from "../../assets/images/subscribe.jpg"
 import classes from "./Landing.module.css"
 import { useState } from "react"
 const imgList = new List()

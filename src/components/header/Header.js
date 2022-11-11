@@ -1,6 +1,7 @@
 import { faBars, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
+import logo from '../../assets/images/logo.png'
 import classes from "./Header.module.css"
 const Header = () => {
     const [menuState, setMenuState] = useState(true)
@@ -11,8 +12,7 @@ const Header = () => {
         <header>
             <div className={ `${classes.flex} container` }>
                 <a href="#" className={ classes.logo }>
-                    {/* <img src="" alt="" /> */ }
-                    Ahmed
+                    <img src={ logo } alt="img!" />
                 </a>
                 <nav>
                     <FontAwesomeIcon onClick={ toggleMenu } icon={ faBars } className={ classes['toggle-menu'] } />

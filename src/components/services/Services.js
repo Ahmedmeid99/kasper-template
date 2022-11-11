@@ -4,7 +4,7 @@ import classes from "./Services.module.css"
 const Services = () => {
     return (
         <div className={ classes.services } >
-            <div className={ classes.container } >
+            <div className="container"  >
                 <div className='main_heading' >
                     <h2> Services</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.

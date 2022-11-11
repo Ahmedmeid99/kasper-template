@@ -1,0 +1,26 @@
+/*########[ Start Variable ]#########*/
+:root {
+  --main-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+  --section-padding: 10rem;
+}
+/*########[ End Variable ]#########*/
+.portfolio {
+  padding: var(--section-padding) 0;
+}
+.shuffle {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 1.8rem;
+  border: 1px solid #eee;
+  width: fit-content;
+  margin: auto;
+}
+.shuffle li {
+  padding: 2rem;
+}
+.shuffle li.active {
+  background-color: var(--main-color);
+  color: #fff;
+}

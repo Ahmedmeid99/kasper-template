@@ -7,17 +7,11 @@
 /*########[ Start Landing ]#########*/
 .landing {
   min-height: 100vh;
-  /* background-image: url("../../assets/images/landing2.jpeg"); */
   background-color: #eee;
   background-position: center;
   background-size: cover;
   position: relative;
   transition: 1s;
-}
-@media (max-width: 600px) {
-  .landing {
-    background-position: 64%;
-  }
 }
 .landing .overlay {
   position: absolute;
