@@ -44,7 +44,7 @@ const Portfolio = () => {
                     </div>
                 ) }
             </div>
-            <a className={ classes.more }>More</a>
+            <a href='#' className={ classes.more }>More</a>
         </div>
     )
 }

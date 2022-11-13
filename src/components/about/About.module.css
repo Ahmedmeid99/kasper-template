@@ -1,0 +1,22 @@
+:root {
+  --main-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+  --section-padding: 10rem;
+}
+.about {
+  padding: var(--section-padding) 0 0 0;
+  text-align: center;
+  overflow: hidden;
+}
+.about img {
+  position: relative;
+  bottom: -12rem;
+  margin-top: -12rem;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .about img {
+    bottom: -6rem;
+    margin-top: -6rem;
+  }
+}
