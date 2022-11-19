@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(15 116 143 / 70%);
+  background-color: var(--transparent-color);
   position: relative;
 }
 .box {
