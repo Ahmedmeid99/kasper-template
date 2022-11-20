@@ -18,7 +18,7 @@ const Portfolio = () => {
 
     const FilteredProjects = useSelector((state) => state.projects.filtered)
     return (
-        <div className={ classes.portfolio }>
+        <div className={ classes.portfolio } id='portfolio'>
             <div className="container">
                 <div className='main_heading' >
                     <h2>Portfolio</h2>

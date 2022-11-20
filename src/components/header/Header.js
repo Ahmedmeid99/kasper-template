@@ -18,11 +18,11 @@ const Header = () => {
                     <FontAwesomeIcon onClick={ toggleMenu } icon={ faBars } className={ classes['toggle-menu'] } />
                     { menuState && <ul>
                         <li><a href="#" className={ classes.active }>Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul> }
                     <div className={ classes.form }>
                         <FontAwesomeIcon icon={ faSearch } className={ classes['search-icon'] } />

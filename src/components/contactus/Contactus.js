@@ -1,7 +1,7 @@
 import classes from "./Contactus.module.css"
 const Contactus = () => {
     return (
-        <div className={ classes.contactus }>
+        <div className={ classes.contactus } id='contact'>
             <div className="container">
                 <div className="main_heading">
                     <h2>Contact Us</h2>
@@ -11,7 +11,7 @@ const Contactus = () => {
                         sunt cupiditate nesciunt magni, repellendus odio dolorum voluptas!</p>
                 </div>
                 <div className={ classes['form-container'] }>
-                    <form >
+                    <form onSubmit={ (e) => e.preventDefault() }>
                         <input className={ classes.input } type="text" name="userName" placeholder="Your Name" />
                         <input className={ classes.input } type="email" name="userEmail" placeholder="Your Mail" />
                         <textarea className={ classes.input } name="userMessage" placeholder="Your Message"></textarea>

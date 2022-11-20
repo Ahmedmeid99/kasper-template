@@ -5,7 +5,7 @@ const Subscribe = () => {
     return (
         <div className={ classes.subscribe }>
             <div className="container">
-                <form action="">
+                <form onSubmit={ (e) => e.preventDefault() }>
                     <FontAwesomeIcon icon={ faEnvelope } className={ classes.icon } />
                     <input type="email" name="email" placeholder="You Email" />
                     <input type="submit" name="subscribe" />

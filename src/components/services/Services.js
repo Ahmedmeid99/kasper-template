@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import classes from "./Services.module.css"
 const Services = () => {
     return (
-        <div className={ classes.services } >
+        <div className={ classes.services } id='services'>
             <div className="container"  >
                 <div className='main_heading' >
                     <h2> Services</h2>

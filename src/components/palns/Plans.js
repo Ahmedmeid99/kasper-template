@@ -1,7 +1,7 @@
 import classes from "./Plans.module.css"
 const Plans = () => {
     return (
-        <div className={ classes.pricing }>
+        <div className={ classes.pricing } id='pricing'>
             <div className="container">
                 <div className="main_heading">
                     <h2>Pricing</h2>

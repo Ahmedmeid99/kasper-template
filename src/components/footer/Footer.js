@@ -8,13 +8,15 @@ const Footer = () => {
     return (
         <div className={ classes.footer }>
             <div className="container">
-                <img src={ img } alt="logo...!" />
+                <a href="#">
+                    <img src={ img } alt="logo...!" />
+                </a>
                 <p>We Are Social</p>
                 <div className={ classes.socialicons }>
-                    <FontAwesomeIcon className={ classes.icon } icon={ faFacebook } />
-                    <FontAwesomeIcon className={ classes.icon } icon={ faTwitter } />
-                    <FontAwesomeIcon className={ classes.icon } icon={ faLinkedin } />
-                    <FontAwesomeIcon className={ classes.icon } icon={ faHome } />
+                    <a href="#"><FontAwesomeIcon className={ classes.icon } icon={ faFacebook } /></a>
+                    <a href="#"><FontAwesomeIcon className={ classes.icon } icon={ faTwitter } /></a>
+                    <a href="#"><FontAwesomeIcon className={ classes.icon } icon={ faLinkedin } /></a>
+                    <a href="#"><FontAwesomeIcon className={ classes.icon } icon={ faHome } /></a>
                 </div>
                 <p className={ classes.copyright }>&copy; 2023 <span>Kasper</span>All Right Reserved</p>
             </div>
