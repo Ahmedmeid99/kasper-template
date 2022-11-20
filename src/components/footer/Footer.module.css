@@ -1,0 +1,34 @@
+.footer {
+  padding: calc(var(--section-padding) / 2) 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/images/subscribe.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.footer img {
+  margin-bottom: 2rem;
+}
+.footer p:not(.copyright) {
+  border-bottom: 1px solid #fff;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.footer .socialicons {
+}
+.footer .socialicons .icon {
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+}
+.footer p.copyright {
+  margin-top: 6rem;
+  font-size: 1.6rem;
+}
+.footer p.copyright span {
+  font-weight: bold;
+  color: var(--main-color);
+}

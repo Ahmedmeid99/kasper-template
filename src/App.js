@@ -10,6 +10,8 @@ import Skills from "./components/skills/Skills";
 import Quote from "./components/quote/Quote";
 import Plans from "./components/palns/Plans";
 import Subscribe from "./components/subscribe/Subscribe";
+import Contactus from "./components/contactus/Contactus";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <Quote />
       <Plans />
       <Subscribe />
+      <Contactus />
+      <Footer />
     </>
 
   );

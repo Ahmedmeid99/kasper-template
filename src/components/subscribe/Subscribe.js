@@ -7,7 +7,7 @@ const Subscribe = () => {
             <div className="container">
                 <form action="">
                     <FontAwesomeIcon icon={ faEnvelope } className={ classes.icon } />
-                    <input type="email" name="email" />
+                    <input type="email" name="email" placeholder="You Email" />
                     <input type="submit" name="subscribe" />
                 </form>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas a excepturi iste tempora rem vitae assumenda aliquid ratione iusto.</p>
